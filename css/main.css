@@ -6,6 +6,11 @@ body {
 @media only screen and (max-width: 600px) {
   .main {
     width: 100% !important;
+    text-align: center !important;
+  }
+  .price-box {
+    display: flex;
+    justify-content: center;
   }
 
   .top-image {

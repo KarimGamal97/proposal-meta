@@ -96,7 +96,8 @@
         background-color: white;
         font-size: 16px;
         line-height: 26px;
-        width: 600px;
+        width: 950px;
+        border: 1px solid #eeeff0;
       "
     >
       <tr>
@@ -104,7 +105,7 @@
           class="border"
           style="
             border-collapse: collapse;
-            border: 1px solid #eeeff0;
+
             margin: 0;
             padding: 0;
             -webkit-text-size-adjust: none;
@@ -270,6 +271,9 @@
                         <br />
                         البريد الالكتروني :
                         <strong> test@test.com</strong>
+                        <br />
+                        التاريخ :
+                        <strong> Feb 27, 2023 06:52 PM</strong>
                         <br /><br />
                         <div class="message-info">
                           <div
@@ -284,7 +288,7 @@
                               <strong> : .........</strong>
                             </div>
                             <div>
-                              مرجع العرض
+                              صالح حتى
                               <strong> : .........</strong>
                             </div>
                           </div>
@@ -296,11 +300,23 @@
                             "
                           >
                             <div>
-                              نهاية العرض
+                              رقم العرض
                               <strong> : .........</strong>
                             </div>
                             <div>
                               مقدم العرض
+                              <strong> : .........</strong>
+                            </div>
+                          </div>
+                          <div
+                            style="
+                              display: flex;
+                              justify-content: center;
+                              margin-bottom: 15px;
+                            "
+                          >
+                            <div>
+                              اسم الحساب
                               <strong> : .........</strong>
                             </div>
                           </div>
@@ -386,7 +402,7 @@
                 </table>
               </td>
             </tr>
-            <tr>
+            <!-- <tr>
               <td
                 style="
                   border-collapse: collapse;
@@ -589,8 +605,111 @@
                   </table>
                 </div>
               </td>
-            </tr>
+            </tr> -->
             <!-- Social -->
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">تفاصيل المنتج</th>
+                  <th scope="col">الكمية</th>
+                  <th scope="col">المبلغ</th>
+                  <th scope="col">المبلغ الإجمالي</th>
+                  <th scope="col">إجمالي ضريبة القيمة المضافة</th>
+                  <th scope="col">المجموع مع ضريبة القيمة المضافة</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="text-center">
+                  <th scope="row">1</th>
+                  <td>المنتج الأول</td>
+                  <td>1</td>
+                  <td>100 ريال</td>
+                  <td>100 ريال</td>
+                  <td>20%</td>
+                  <td>120 ريال</td>
+                </tr>
+                <tr class="text-center">
+                  <th scope="row">2</th>
+                  <td>المنتج الثاني</td>
+                  <td>1</td>
+                  <td>100 ريال</td>
+                  <td>100 ريال</td>
+                  <td>20%</td>
+                  <td>120 ريال</td>
+                </tr>
+                <tr class="text-center">
+                  <th scope="row">3</th>
+                  <td>المنتج الثالث</td>
+                  <td>1</td>
+                  <td>100 ريال</td>
+                  <td>100 ريال</td>
+                  <td>20%</td>
+                  <td>120 ريال</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table d-flex" style="width: 250px">
+              <thead style="display: flex; flex-direction: flex-start">
+                <tr>
+                  <th
+                    scope="col"
+                    style="font-size: 18px; font-weight: 400; border: none"
+                  >
+                    المجموع الفرعي :
+                  </th>
+                  <th style="font-size: 18px; border: none">2000 ريال</th>
+                </tr>
+              </thead>
+            </table>
+            <table class="table d-flex" style="width: 300px">
+              <thead style="display: flex; flex-direction: flex-start">
+                <tr>
+                  <th
+                    scope="col"
+                    style="font-size: 18px; font-weight: 400; border: none"
+                  >
+                    ضريبة القيمة المضافة :
+                  </th>
+                  <th style="font-size: 18px; border: none">2000 ريال</th>
+                </tr>
+              </thead>
+            </table>
+            <table
+              class="table d-flex"
+              style="
+                width: 250px;
+                border-bottom: 1px solid #eee;
+                margin-top: 10px;
+              "
+            >
+              <thead style="display: flex; flex-direction: flex-start">
+                <tr>
+                  <th
+                    scope="col"
+                    style="font-size: 18px; font-weight: 400; border: none"
+                  >
+                    الخصم :
+                  </th>
+                  <th style="font-size: 18px; border: none">2000 ريال</th>
+                </tr>
+              </thead>
+            </table>
+
+            <table class="table d-flex" style="width: 250px">
+              <thead style="display: flex; flex-direction: flex-start">
+                <tr>
+                  <th
+                    scope="col"
+                    style="font-size: 18px; font-weight: 400; border: none"
+                  >
+                    المجموع الكلي:
+                  </th>
+                  <th style="font-size: 18px; border: none">2000 ريال</th>
+                </tr>
+              </thead>
+            </table>
+            <hr size="1" color="#eeeff0" />
             <!-- Social -->
             <tr>
               <td
@@ -619,6 +738,7 @@
                     - هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
                   </p>
                 </div>
+                <hr size="1" color="#eeeff0" />
               </td>
             </tr>
             <td
@@ -632,6 +752,8 @@
                 font-size: 16px;
                 line-height: 24px;
                 padding: 20px;
+                display: flex;
+                justify-content: center;
               "
             >
               <div class="mktEditable price-box" id="cta_try">
@@ -710,7 +832,6 @@
                               "
                               >الميزةالأولي </span
                             ><br />
-
                             <img
                               src="./imgs/logo.png"
                               width="70px"
@@ -807,10 +928,97 @@
                         </tr>
                       </table>
                     </td>
+                    <td
+                      class="rm-col"
+                      style="
+                        border-collapse: collapse;
+                        border: 0;
+                        margin: 0;
+                        padding: 0;
+                        -webkit-text-size-adjust: none;
+                        color: #555559;
+                        font-size: 16px;
+                        line-height: 24px;
+                        padding-right: 15px;
+                      "
+                    ></td>
+                    <td
+                      class="force-col"
+                      valign="top"
+                      style="
+                        border-collapse: collapse;
+                        border: 0;
+                        margin: 0;
+                        padding: 0;
+                        -webkit-text-size-adjust: none;
+                        color: #555559;
+                        font-size: 16px;
+                        line-height: 24px;
+                      "
+                    >
+                      <table
+                        class="mb mt"
+                        style="
+                          font-weight: normal;
+                          border-collapse: collapse;
+                          border: 0;
+                          margin: 0;
+                          padding: 0;
+                          margin-bottom: 15px;
+                          margin-top: 0;
+                        "
+                      >
+                        <tr>
+                          <td
+                            class="grey-block"
+                            style="
+                              border-collapse: collapse;
+                              border: 0;
+                              margin: 0;
+                              padding: 18px;
+                              -webkit-text-size-adjust: none;
+                              color: #555559;
+                              font-size: 16px;
+                              line-height: 24px;
+                              background-color: #fff;
+                              border-top: 3px solid #d8804f;
+                              border-left: 1px solid #e6e6e6;
+                              border-right: 1px solid #e6e6e6;
+                              border-bottom: 1px solid #e6e6e6;
+                              width: 250px;
+                              text-align: center;
+                            "
+                          >
+                            <span
+                              style="
+                                font-size: 24px;
+                                line-height: 39px;
+                                border-collapse: collapse;
+                                border: 0;
+                                margin: 0;
+                                padding: 0;
+                                color: #555559;
+                                text-align: center;
+                                font-weight: bold;
+                              "
+                              >الميزة الثالثة </span
+                            ><br />
+
+                            <img
+                              src="./imgs/logo.png"
+                              width="70px"
+                              style="margin-top: 15px"
+                              alt=""
+                            />
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
                   </tr>
                 </table>
               </div>
             </td>
+
             <tr>
               <td
                 class="text"
@@ -826,10 +1034,252 @@
                 "
               >
                 <div class="mktEditable" id="main_text">
-                  <span style="font-weight: bold">الدفع</span> :<br /><br />
-                  <p>
-                    - هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
-                  </p>
+                  <span style="font-weight: bold">الشروط والأحكام:</span>
+                  :<br /><br />
+                  <div class="message-info">
+                    <div
+                      style="
+                        display: flex;
+                        justify-content: space-around;
+                        margin-bottom: 15px;
+                      "
+                    >
+                      <div>
+                        الفواتير المدفوعة حسب الأشهر
+                        <strong> : 12</strong>
+                      </div>
+                      <div>
+                        التسعير
+                        <strong> :بما في ذلك ضريبة القيمة المضافة</strong>
+                      </div>
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        justify-content: space-around;
+                        margin-bottom: 15px;
+                      "
+                    >
+                      <div>
+                        تاريخ التفعيل
+                        <strong> : Mar 7, 2023</strong>
+                      </div>
+                      <div>
+                        تاريخ التعطيل
+                        <strong> : Feb 7, 2024 </strong>
+                      </div>
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        justify-content: center;
+                        margin-bottom: 15px;
+                      "
+                    >
+                      <div>
+                        شروط الدفع
+                        <strong>
+                          : 50 ٪ نقدا مقدما-50 ٪ عند التسليم طرق الدفع: نقدا أو
+                          شيك أو إيداع مصرفي</strong
+                        >
+                      </div>
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        justify-content: space-around;
+                        margin-bottom: 15px;
+                      "
+                    >
+                      <div>
+                        الحيازة التجارية
+                        <strong> : الأعمال القائمة</strong>
+                      </div>
+                      <div>
+                        مسؤولية الأجهزة
+                        <strong> : العملاء </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr size="1" color="#eeeff0" />
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="text"
+                style="
+                  border-collapse: collapse;
+                  border: 0;
+                  margin: 0;
+                  padding: 15px;
+                  -webkit-text-size-adjust: none;
+                  color: #555559;
+                  font-size: 16px;
+                  line-height: 26px;
+                "
+              >
+                <div class="mktEditable" id="main_text">
+                  <span style="font-weight: bold">تفاصيل البنك</span>
+                  :<br /><br />
+                  <div class="mktEditable" id="main_text">
+                    <div class="message-info">
+                      <div
+                        style="
+                          display: flex;
+                          justify-content: space-around;
+                          margin-bottom: 15px;
+                        "
+                      >
+                        <div>
+                          اسم البنك
+                          <strong> : ADIB</strong>
+                        </div>
+                        <div>
+                          اسم الفرع
+                          <strong> : وسط البلد</strong>
+                        </div>
+                      </div>
+                      <div
+                        style="
+                          display: flex;
+                          justify-content: space-around;
+                          margin-bottom: 15px;
+                        "
+                      >
+                        <div>
+                          اسم الحساب
+                          <strong> :MetaShops</strong>
+                        </div>
+                        <div>
+                          رقم الحساب
+                          <strong> : 10000055411 </strong>
+                        </div>
+                      </div>
+                      <div
+                        style="
+                          display: flex;
+                          justify-content: center;
+                          margin-bottom: 15px;
+                        "
+                      >
+                        <div>
+                          IBAN رقم
+                          <strong> : EG13003025300000010000055411</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr size="1" color="#eeeff0" />
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="text"
+                style="
+                  border-collapse: collapse;
+                  border: 0;
+                  margin: 0;
+                  padding: 15px;
+                  -webkit-text-size-adjust: none;
+                  color: #555559;
+                  font-size: 16px;
+                  line-height: 26px;
+                "
+              >
+                <div class="mktEditable" id="main_text">
+                  <span style="font-weight: bold"> المبيعات</span>
+                  :<br /><br />
+                  <div class="mktEditable" id="main_text">
+                    <div class="message-info">
+                      <div
+                        style="
+                          display: flex;
+                          justify-content: space-around;
+                          margin-bottom: 15px;
+                        "
+                      >
+                        <div>
+                          الاسم
+                          <strong> : Ezz Elgharib</strong>
+                        </div>
+                        <div>
+                          البريد الالكترزني
+                          <strong> : : e.elgharib@3s-pos.com.eg </strong>
+                        </div>
+                      </div>
+                      <div
+                        style="
+                          display: flex;
+                          justify-content: space-around;
+                          margin-bottom: 15px;
+                        "
+                      >
+                        <div>
+                          رقم الهاتف
+                          <strong> :+20105023 </strong>
+                        </div>
+                        <div>
+                          الموقع الالكتروني
+                          <strong> : www.3s-pos.com.eg </strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr size="1" color="#eeeff0" />
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="text"
+                style="
+                  border-collapse: collapse;
+                  border: 0;
+                  margin: 0;
+                  padding: 15px;
+                  -webkit-text-size-adjust: none;
+                  color: #555559;
+                  font-size: 16px;
+                  line-height: 26px;
+                "
+              >
+                <div class="mktEditable" id="main_text">
+                  <span style="font-weight: bold"> الاتصال بالعملاء</span>
+                  :<br /><br />
+                  <div class="mktEditable" id="main_text">
+                    <div class="message-info">
+                      <div
+                        style="
+                          display: flex;
+                          justify-content: space-around;
+                          margin-bottom: 15px;
+                        "
+                      >
+                        <div>
+                          الاسم
+                          <strong> : Ezz Elgharib</strong>
+                        </div>
+                        <div>
+                          البريد الالكتروني
+                          <strong> : : e.elgharib@3s-pos.com.eg </strong>
+                        </div>
+                      </div>
+                      <div
+                        style="
+                          display: flex;
+                          justify-content: space-around;
+                          margin-bottom: 15px;
+                        "
+                      >
+                        <div>
+                          رقم الهاتف
+                          <strong> :+20105023 </strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </td>
             </tr>

@@ -267,13 +267,13 @@
                           width="100%"
                         /><br /><br />
                         العرض مقدم ل :
-                        <strong>مدارس التعليم العالمية - الدمام</strong>
+                        <strong>{COMPANY_NAME}</strong>
                         <br />
                         البريد الالكتروني :
-                        <strong> test@test.com</strong>
+                        <strong> {COMPANY_EMAIL}</strong>
                         <br />
                         التاريخ :
-                        <strong> Feb 27, 2023 06:52 PM</strong>
+                        <strong> {PROPOSAL_DATE}</strong>
                         <br /><br />
                         <div class="message-info">
                           <div
@@ -285,11 +285,11 @@
                           >
                             <div>
                               مرجع العرض
-                              <strong> : .........</strong>
+                              <strong> : {PROPOSAL_ID}</strong>
                             </div>
                             <div>
                               صالح حتى
-                              <strong> : .........</strong>
+                              <strong> : {PROPOSAL_EXPIRY_DATE}</strong>
                             </div>
                           </div>
                           <div
@@ -301,11 +301,11 @@
                           >
                             <div>
                               رقم العرض
-                              <strong> : .........</strong>
+                              <strong> : {PROPOSAL_ID}</strong>
                             </div>
                             <div>
                               مقدم العرض
-                              <strong> : .........</strong>
+                              <strong> : {COMPANY_NAME}</strong>
                             </div>
                           </div>
                           <div
@@ -317,7 +317,7 @@
                           >
                             <div>
                               اسم الحساب
-                              <strong> : .........</strong>
+                              <strong> : {APP_TITLE}</strong>
                             </div>
                           </div>
                         </div>
@@ -607,7 +607,7 @@
               </td>
             </tr> -->
             <!-- Social -->
-            <table class="table table-bordered">
+            <!-- <table class="table table-bordered">
               <thead>
                 <tr>
                   <th scope="col">#</th>
@@ -661,8 +661,9 @@
                   <th style="font-size: 18px; border: none">2000 ريال</th>
                 </tr>
               </thead>
-            </table>
-            <table class="table d-flex" style="width: 300px">
+            </table> -->
+            {PROPOSAL_ITEMS}
+            <!-- <table class="table d-flex" style="width: 300px">
               <thead style="display: flex; flex-direction: flex-start">
                 <tr>
                   <th
@@ -708,7 +709,8 @@
                   <th style="font-size: 18px; border: none">2000 ريال</th>
                 </tr>
               </thead>
-            </table>
+            </table> -->
+
             <hr size="1" color="#eeeff0" />
             <!-- Social -->
             <tr>
@@ -1183,11 +1185,11 @@
                       >
                         <div>
                           الاسم
-                          <strong> : .......</strong>
+                          <strong> : {COMPANY_NAME}</strong>
                         </div>
                         <div>
-                          البريد الالكترزني
-                          <strong> : .......</strong>
+                          البريد الالكتروني
+                          <strong> : {COMPANY_EMAIL}</strong>
                         </div>
                       </div>
                       <div
@@ -1199,11 +1201,11 @@
                       >
                         <div>
                           رقم الهاتف
-                          <strong> : .......</strong>
+                          <strong> : {COMPANY_PHONE}</strong>
                         </div>
                         <div>
                           الموقع الالكتروني
-                          <strong> : .......</strong>
+                          <strong> : {COMPANY_WEBSITE}</strong>
                         </div>
                       </div>
                     </div>
@@ -1240,11 +1242,11 @@
                       >
                         <div>
                           الاسم
-                          <strong> : .......</strong>
+                          <strong> : {COMPANY_NAME}</strong>
                         </div>
                         <div>
                           البريد الالكتروني
-                          <strong> : .......</strong>
+                          <strong> : {COMPANY_EMAIL}</strong>
                         </div>
                       </div>
                       <div
@@ -1256,7 +1258,7 @@
                       >
                         <div>
                           رقم الهاتف
-                          <strong> : .......</strong>
+                          <strong> : {COMPANY_PHONE}</strong>
                         </div>
                       </div>
                     </div>
